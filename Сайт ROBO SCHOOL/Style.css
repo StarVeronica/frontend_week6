@@ -1,0 +1,240 @@
+body {
+    font-family: 'Jost', sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr 4fr 3fr;
+    height: 100vh;
+    gap: 10px;
+    padding-left: 20px;
+    color: white;
+    background-image: url('Header.png');
+}
+
+main {
+    padding: 25px;
+}
+
+span {
+    font-weight: bold;
+}
+
+input {
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+button {
+    height: 50px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    color: white;
+    background-color: black;
+}
+
+
+
+header img {
+    padding-top: 20px;
+}
+
+header a {
+    padding-top: 20px;
+}
+
+header h2 {
+    padding-top: -20px;
+}
+
+.block1 div h1 {
+    color: red;
+}
+
+article img {
+    width: 80%;
+}
+
+.block4 div h1 {
+    grid-row-start: 3;
+}
+
+.block4 div p {
+    grid-row-start: 4;
+}
+
+.block4 div a {
+    grid-row-start: 5;
+}
+
+.block5 div {
+    display: grid;
+    grid-column-start: 2;
+    align-items: center;
+    align-content: center;
+}
+
+.block5 form {
+    display: grid;
+    gap: 10px;
+    align-items: center;
+    align-content: center;
+}
+
+footer div {
+    padding: 40px;
+}
+
+footer h1 {
+    grid-column-start: 3;
+    padding: 20px;
+}
+
+
+
+.menu_nav:link {
+    font-size: smaller;
+    color: white;
+    text-decoration: none;
+}
+
+.menu_nav:visited {
+    font-size: smaller;
+    color: white;
+}
+
+.menu_nav:hover {
+    font-size: smaller;
+    color: rgb(189, 189, 189);
+    text-decoration: none;
+}
+
+.links_more:link {
+    color: red;
+    text-decoration: none;
+}
+
+.links_more:visited {
+    color: red;
+}
+
+.links_more:hover {
+    color: rgb(177, 10, 10);
+    text-decoration: none;
+}
+
+.button:link {
+    height: 20px;
+    padding: 20px 40px;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.button:visited {
+    height: 20px;
+    padding: 20px 40px;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.button:hover {
+    height: 20px;
+    padding: 20px 40px;
+    align-content: center;
+    justify-content: center;
+    color: rgb(216, 216, 216);
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+
+
+.menu_nav {
+    display: grid;
+    width: 53px;;
+    height: 10px;
+}
+
+.text_block {
+    display: grid;
+    width: 50%;
+}
+
+.block1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.block2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.block3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.links_more {
+    width: 53px;;
+    height: 8px;
+}
+
+.block4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.pro {
+    display: grid;
+    grid-template-rows: 2fr 1fr 2fr 2fr 2fr;
+    justify-items: center;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.robo_prog {
+    display: grid;
+    grid-template-rows: 2fr 1fr 2fr 2fr 2fr;
+    justify-items: center;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.block5 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    height: 70vh;
+    gap: 20px;
+    color: white;
+    background-image: url('Form.png');
+}
