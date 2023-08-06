@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Normalize.css" />
+    <title>Таблица</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-rows: 1fr 3fr 1fr;
+        grid-template-columns: 2fr 1fr;
+      }
+
+      .header {
+        padding: 5px;
+        grid-column: 1 / 3;
+        background-color: rgb(224, 224, 224);
+      }
+
+      .main {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        padding: 5px;
+        background-color: rgb(255, 248, 227);
+      }
+
+      .main_text {
+        grid-column: 1 / 3;
+      }
+
+      .article-1-2 {
+        padding: 5px;
+        background-color: rgb(254, 234, 185);
+      }
+
+      .article-3 {
+        grid-column: 1 / 3;
+        padding: 5px;
+        background-color: rgb(254, 234, 185);
+      }
+
+      .aside {
+        padding: 5px;
+        background-color: rgb(221, 236, 203);
+      }
+
+      .footer {
+        display: grid;
+        grid-column: 1 / 3;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        padding: 5px;
+        background-color: rgb(224, 224, 224);
+      }
+
+      .section {
+        padding: 5px;
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">Шапка страницы</header>
+      <main class="main">
+        <div class="main_text">Основная часть</div>
+        <article class="article-1-2">Ещё 1</article>
+        <article class="article-1-2">Ещё 2</article>
+        <article class="article-3">Ещё 3</article>
+      </main>
+      <aside class="aside">Боковая область</aside>
+      <footer class="footer">
+        <section class="section">Секция 1</section>
+        <section class="section">Секция 2</section>
+        <section class="section">Секция 3</section>
+        <section class="section">Секция 4</section>
+      </footer>
+    </div>
+  </body>
+</html>
